@@ -1,15 +1,15 @@
 # Overview
 It may be comfortable to install via `environment.yaml` or `requirements.txt`, but there exists dependency varying with CUDA version, which can be hard to reproduce our work.
 
-So I decide to guide whole installation procedure. 
+So I decided to guide whole installation procedure. 
 
 If you get unexpected error, please refer to [FAQs]() describing solutions for the error. 
 
-Feel free to upload git issue to question including installation guide. ⸜( ◜࿁◝ )⸝︎︎
+Feel free to upload a git issue to ask questions, including an installation guide.
 
 ## Basic Setup
 ```bash
-conda create -n uasopi python=3.8
+conda create -n uasopi python=3.8 
 conda activate uasopi
 
 git clone https://github.com/HAMA-DL-dev/UASOPI.git
@@ -36,11 +36,12 @@ So there can be an error if your environment has other CUDA version.
 ## [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
 ```bash
 git clone https://github.com/open-mmlab/OpenPCDet.git
-cd OpenPCDet && python setup.py develop
+cd OpenPCDet
+python setup.py develop
 ```
-❗Please run `demo.py`
+🙏🙏Please run `demo.py`🙏🙏 before install belows
 
-There can be `segmentation fault(core dumped)` if there exists version compatibility problem between them.
+`segmentation fault(core dumped)` would occur if there is version compatibility problem between torch and pcdet.
 
 ## [torchsparse](https://github.com/mit-han-lab/torchsparse) 
 ```bash
@@ -60,8 +61,8 @@ python -c "import torch; print(torch.version.cuda)"
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
 pip install torch_geometric
 ```
-## pytorch-lightning, torchmetrics
-DO refer this [compatibility matrix](https://lightning.ai/docs/pytorch/stable/versioning.html#compatibility-matrix)
+## [pytorch-lightning](https://lightning.ai/docs/pytorch/stable/), [torchmetrics](https://lightning.ai/docs/torchmetrics/stable/)
+🙏🙏PLEASE refer to [compatibility matrix](https://lightning.ai/docs/pytorch/stable/versioning.html#compatibility-matrix) 🙏🙏
 
 There also exists compatibility between belows,
 - `lightning.pytorch`
