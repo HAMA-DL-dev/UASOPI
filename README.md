@@ -44,6 +44,8 @@ This repositoy was highly moviated by [ALSO: Automotive Lidar Self-supervision b
 
 Our work would NOT have been possible without many community resources and repositories including belows
 
-- [ALSO]()
-- [OpenPCDet]()
-- [SalsaNext]()
+- [ALSO](https://github.com/valeoai/ALSO)
+- [OpenPCDet](https://github.com/open-mmlab/OpenPCDet)
+- [SalsaNext](https://github.com/TiagoCortinhal/SalsaNext)
+
+Also, there is [**Research Blog**](https://www.notion.so/ophd/Uncertainty-Quantification-348cf54cf9d74abfbedb04b51eb0a4dc)  that contains what I recorded while conducting this work. This page is written to Korean and is for students who study the "Uncertainty Quantification" (AUE8091)
