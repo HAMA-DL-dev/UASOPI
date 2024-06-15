@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: torchsparse
+Version: 2.1.0
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: backports.cached_property
+Requires-Dist: tqdm
+Requires-Dist: typing-extensions
+Requires-Dist: wheel
+Requires-Dist: rootpath
