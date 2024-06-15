@@ -9,6 +9,7 @@
 
 # Changelog
 **[24.06.15]** Upload only the core part of the entire code. The rest will be released later.
+
 **[24.05.02]** Create the repository
 
 
