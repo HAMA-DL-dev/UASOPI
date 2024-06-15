@@ -1,13 +1,14 @@
 # UASOPI : Uncertainty-Aware Self-supervised Occupancy Prediction for Interpretability
-- [Changelog]()
-- [Dependencies]()
-- [Installation]()
+- [Changelog](https://github.com/HAMA-DL-dev/UASOPI/tree/main?tab=readme-ov-file#dependencies)
+- [Dependencies](https://github.com/HAMA-DL-dev/UASOPI/tree/main?tab=readme-ov-file#dependencies)
+- [Installation](https://github.com/HAMA-DL-dev/UASOPI/blob/main/docs/INSTALLATION.md)
 - [Guidline]()
-- [FAQs]()
-- [Model Zoo]()
-- [Acknowlegement]()
+- [FAQs](https://github.com/HAMA-DL-dev/UASOPI/blob/main/docs/FAQs.md)
+- [Model Zoo](https://github.com/HAMA-DL-dev/UASOPI/tree/main?tab=readme-ov-file#model-zoo)
+- [Acknowlegement](https://github.com/HAMA-DL-dev/UASOPI/tree/main?tab=readme-ov-file#acknowledgement)
 
 # Changelog
+**[24.06.15]** Upload only the core part of the entire code. The rest will be released later.
 **[24.05.02]** Create the repository
 
 
