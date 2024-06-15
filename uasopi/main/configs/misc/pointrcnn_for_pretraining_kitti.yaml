@@ -1,0 +1,20 @@
+CLASS_NAMES: ['Car', 'Pedestrian', 'Cyclist']
+
+DATA_CONFIG: 
+    _BASE_CONFIG_: ./configs/misc/kitti_dataset.yaml
+
+
+MODEL:
+    NAME: PointRCNN
+
+    BACKBONE_3D:
+        NAME: PointNet2MSG
+        SA_CONFIG:
+            NPOINTS: [4096, 1024, 256, 64]
+            RADIUS: [[0.1, 0.5], [0.5, 1.0], [1.0, 2.0], [2.0, 4.0]]
+            NSAMPLE: [[16, 32], [16, 32], [16, 32], [16, 32]]
+            MLPS: [[[16, 16, 32], [32, 32, 64]],
+                   [[64, 64, 128], [64, 96, 128]],
+                   [[128, 196, 256], [128, 196, 256]],
+                   [[256, 256, 512], [256, 384, 512]]]
+        FP_MLPS: [[128, 128], [256, 256], [512, 512], [512, 512]]
