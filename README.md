@@ -1,5 +1,5 @@
 # UASOPI : Uncertainty-Aware Self-supervised Occupancy Prediction for Interpretability
-- [Changelog](https://github.com/HAMA-DL-dev/UASOPI/tree/main?tab=readme-ov-file#dependencies)
+- [Changelog](https://github.com/HAMA-DL-dev/UASOPI/tree/main?tab=readme-ov-file#changelog)
 - [Dependencies](https://github.com/HAMA-DL-dev/UASOPI/tree/main?tab=readme-ov-file#dependencies)
 - [Installation](https://github.com/HAMA-DL-dev/UASOPI/blob/main/docs/INSTALLATION.md)
 - [Guidline]()
